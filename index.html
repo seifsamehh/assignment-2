@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/311992513_114755801416746_2833257404586315995_n.jpg">
+    <title>Assignment 2</title>
+    <script>
+        document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+            }
+        }
+        </script>
+</head>
+
+<body oncontextmenu="return false">
+    <!-- start header -->
+    <header>
+        <!-- make header centered -->
+        <center>
+            <h1>Quran</h1>
+            <!-- put image with height 500px -->
+            <img src="./images/270802-mosques-Islam.jpg" alt="quran-image" height="500px">
+            <!-- move down two lines -->
+            <br><br>
+            <!-- audio with controls to appear -->
+            <audio controls>
+                <source src="./Audios/audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <!-- end audio -->
+        </center>
+        <!-- end center -->
+    </header>
+    <!-- end header -->
+    <!-- separate line -->
+    <hr>
+    <!-- end separate line -->
+    <!-- start table -->
+    <table>
+        <tr>
+            <!-- th with row with 3 places -->
+            <th colspan="3">
+                <!-- centered -->
+                <center>
+                    <h2>
+                        IEE-OSB
+                    </h2>
+                </center>
+            </th>
+        </tr>
+        <tr>
+            <!-- td with row with 3 places -->
+            <td colspan="3">
+                <!-- centered -->
+                <center>
+                    <!-- video we put in our site -->
+                    <video width="60%" controls poster="./images/311992513_114755801416746_2833257404586315995_n.jpg">
+                        <source src="./videos/Please Do Your Assignment With Clean Code !!.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- end video -->
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- centered -->
+                <center>
+                    <!-- facebook link -->
+                    <a href="https://www.facebook.com/profile.php?id=100086469804756" target="_blank" rel="noopener">
+                        <img src="./images/facebook (1).png" alt="facebook-icon" width="20%">
+                        <p>IEEE-Facebook</p>
+                    </a>
+                </center>
+            </td>
+            <td>
+                <!-- centered -->
+                <center>
+                    <!-- instgram link -->
+                    <a href="https://www.instagram.com/ieee_osb/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener">
+                        <img src="./images/instagram.png" alt="instagram-icon" width="20%">
+                        <p>IEEE-Instagram</p>
+                    </a>
+                </center>
+            </td>
+            <td>
+                <!-- centered -->
+                <center>
+                    <!-- community page link -->
+                    <a href="https://ieee-community.vercel.app/" target="_blank" rel="noopener">
+                        <img src="./images/87678678678ygbtgguy.png" alt="ieee-icon" width="20%">
+                        <p>IEEE-Community</p>
+                    </a>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <!-- end table -->
+    <!-- start section -->
+    <section>
+        <!-- start form -->
+        <form action="" method="post">        <!--or get :)-->
+            <!-- centered -->
+            <center>
+                <h3>Join Us...!</h3>
+                <!-- label of the first input(username) -->
+                <label for="user-name">Enter Username :</label>
+                <!-- input to put username with required and length -->
+                <input type="text" name="user-name" placeholder="Username" id="user-name" required maxlength="8" minlength="4">
+                <!-- move down two line -->
+                <br><br>
+                <!-- label of the second input(password) -->
+                <label for="password">Enter Password :</label>
+                <!-- input to put password with required and length -->
+                <input type="password" name="password" id="password" placeholder="Password" required maxlength="15" minlength="6">
+                <!-- move down two lines -->
+                <br><br>
+                <!-- inout buttom to subimt sign in -->
+                <input type="submit" value="Sign In">
+            </center>
+        </form>
+        <!-- end form -->
+    </section>
+    <!-- end section -->
+    <!-- move down one line -->
+    <br>
+    <!-- start footer -->
+    <footer>
+        <!-- centered -->
+        <center>
+            <h4>All right reserved IEEE-OSB &copy; 2022 </h4>
+            <!-- link to go to the top of the page -->
+            <a href="#"> &uarr;</a>
+        </center>
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
